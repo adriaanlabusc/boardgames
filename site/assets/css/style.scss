@@ -1,0 +1,48 @@
+---
+---
+
+.wrapper {
+  max-width: 100%;
+  max-width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.boardgame-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.boardgame {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-gap: 10px;
+  align-items: center;
+  color: black;
+  font-weight: 100;
+
+  h3 a {
+    font-size: 15px;
+  }
+
+  .boardgame-description {
+    font-size: 10px;
+  }
+}
+
+.boardgame-image {
+  width: 100%;
+}
+
+#platty-footer {
+  height: 200px;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  z-index: -2;
+}
